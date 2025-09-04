@@ -1,0 +1,6 @@
+@use "../global" as *;
+#MO250911DENIM {
+  @include mq(md) {
+    
+  }
+}

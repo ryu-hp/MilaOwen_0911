@@ -1,19 +1,312 @@
 @charset "UTF-8";
-
-/* フッター */
+#MO250911DENIM img,
+#MO250911DENIM video {
+  width: 100%;
+  display: block;
+}
+#MO250911DENIM a {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
 @media screen and (min-width: 768px) {
-    .footer {
-        padding-top: 27.7rem;
-    }
+  #MO250911DENIM a {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+#MO250911DENIM a:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+  #MO250911DENIM a:hover {
+    opacity: 1;
+  }
+}
+#MO250911DENIM .only-sp {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #MO250911DENIM .only-sp {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  #MO250911DENIM .only-pc {
+    display: none;
+  }
+}
+#MO250911DENIM a {
+  text-decoration: none;
+}
+#MO250911DENIM .js-fadeIn {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 2s, visibility 2s;
+  transition: opacity 2s, visibility 2s;
+}
+#MO250911DENIM .js-fadeIn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+#MO250911DENIM .text-center {
+  text-align: center;
+}
+#MO250911DENIM .description {
+  font-size: calc(25 * (100vw / 750));
+  line-height: 2;
+  font-family: "mencken-std-head", sans-serif;
+  letter-spacing: 0.05em;
 }
 
-@media screen and (max-width: 767px) {
-    .footer {
-        padding-top: calc(192 *(100vw / 750));
-    }
+#MO250911DENIM {
+  /* Remove default padding */
+  /* Remove default margin */
+  /* Set core root defaults */
+  /* Set core body defaults */
+  /* Remove list styles on ul, ol elements with a class attribute */
+  /* a 要素のリセット */
+  /* A elements that don't have a class get default styles */
+  /* Make images easier to work with */
+  /* Natural flow and rhythm in articles by default 
+  article > * + * {
+    margin-top: 1em;
+  }
+  */
+  /* Inherit fonts for inputs and buttons */
+  /* Blur images when they have no alt attribute */
+  /* フォームリセット */
+}
+#MO250911DENIM *,
+#MO250911DENIM *::before,
+#MO250911DENIM *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#MO250911DENIM ul,
+#MO250911DENIM ol {
+  padding: 0;
+}
+#MO250911DENIM body,
+#MO250911DENIM h1,
+#MO250911DENIM h2,
+#MO250911DENIM h3,
+#MO250911DENIM h4,
+#MO250911DENIM p,
+#MO250911DENIM ul,
+#MO250911DENIM ol,
+#MO250911DENIM figure,
+#MO250911DENIM blockquote,
+#MO250911DENIM dl,
+#MO250911DENIM dd {
+  margin: 0;
+}
+#MO250911DENIM html {
+  scroll-behavior: smooth;
+}
+#MO250911DENIM body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+#MO250911DENIM ul,
+#MO250911DENIM ol {
+  list-style: none;
+}
+#MO250911DENIM a {
+  text-decoration: none;
+  color: inherit;
+}
+#MO250911DENIM a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+#MO250911DENIM img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+#MO250911DENIM input,
+#MO250911DENIM button,
+#MO250911DENIM textarea,
+#MO250911DENIM select {
+  font: inherit;
+}
+#MO250911DENIM img:not([alt]) {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+#MO250911DENIM input,
+#MO250911DENIM button,
+#MO250911DENIM select,
+#MO250911DENIM textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+#MO250911DENIM textarea {
+  resize: vertical;
+}
+#MO250911DENIM input[type=checkbox],
+#MO250911DENIM input[type=radio] {
+  display: none;
+}
+#MO250911DENIM input[type=submit],
+#MO250911DENIM input[type=button],
+#MO250911DENIM label,
+#MO250911DENIM button,
+#MO250911DENIM select {
+  cursor: pointer;
+}
+#MO250911DENIM select::-ms-expand {
+  display: none;
 }
 
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////
-                                    ▼ 下記よりCSSの追加をお願いします ▼                              
-/////////////////////////////////////////////////////////////////////////////////////////////////// */
+#MO250911DENIM .lp-scroll-content {
+  padding-bottom: calc(305 * (100vw / 750));
+}
+#MO250911DENIM .sec-01 {
+  padding-top: calc(102 * (100vw / 750));
+}
+#MO250911DENIM .sec-01__description {
+  font-size: calc(25 * (100vw / 750));
+  line-height: 2.6;
+  letter-spacing: 0.025em;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+}
+#MO250911DENIM .sec-02 {
+  padding-top: calc(157 * (100vw / 750));
+}
+#MO250911DENIM .sec-02__movie {
+  max-width: calc(675 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-02__image-01 {
+  margin-top: calc(100 * (100vw / 750));
+  max-width: calc(630 * (100vw / 750));
+  margin-left: auto;
+}
+#MO250911DENIM .sec-02__content {
+  margin-top: calc(19.9 * (100vw / 750));
+  max-width: calc(580 * (100vw / 750));
+  margin-right: auto;
+}
+#MO250911DENIM .sec-02__text {
+  padding-left: calc(40 * (100vw / 750));
+  margin-top: calc(50 * (100vw / 750));
+}
+#MO250911DENIM .sec-03 {
+  padding-top: calc(151 * (100vw / 750));
+}
+#MO250911DENIM .sec-03__movie {
+  max-width: calc(675 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-03__image-01 {
+  margin-top: calc(100 * (100vw / 750));
+  max-width: calc(640 * (100vw / 750));
+  margin-right: auto;
+}
+#MO250911DENIM .sec-03__content {
+  margin-top: calc(20 * (100vw / 750));
+  max-width: calc(640 * (100vw / 750));
+  margin-right: auto;
+}
+#MO250911DENIM .sec-03__text {
+  padding-left: calc(36 * (100vw / 750));
+  margin-top: calc(50 * (100vw / 750));
+}
+#MO250911DENIM .sec-04 {
+  padding-top: calc(150 * (100vw / 750));
+}
+#MO250911DENIM .sec-04__movie {
+  max-width: calc(675 * (100vw / 750));
+  margin-top: calc(99.5 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-04__content {
+  margin-top: calc(20 * (100vw / 750));
+  max-width: calc(675.2 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-04__text {
+  margin-top: calc(50 * (100vw / 750));
+}
+#MO250911DENIM .sec-05 {
+  padding-top: calc(150.5 * (100vw / 750));
+}
+#MO250911DENIM .sec-05__movie {
+  max-width: calc(675 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-05__image-01 {
+  margin-top: calc(100 * (100vw / 750));
+  max-width: calc(600 * (100vw / 750));
+  margin-left: auto;
+}
+#MO250911DENIM .sec-05__content {
+  margin-top: calc(20 * (100vw / 750));
+  max-width: calc(630 * (100vw / 750));
+  margin-right: auto;
+}
+#MO250911DENIM .sec-05__text {
+  padding-left: calc(40 * (100vw / 750));
+  margin-top: calc(37 * (100vw / 750));
+  max-width: calc(530 * (100vw / 750));
+}
+#MO250911DENIM .sec-06 {
+  padding-top: calc(149.5 * (100vw / 750));
+}
+#MO250911DENIM .sec-06__image-02 {
+  max-width: calc(560 * (100vw / 750));
+  margin-top: calc(60 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-06__content {
+  margin-top: calc(100 * (100vw / 750));
+  max-width: calc(675 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+}
+#MO250911DENIM .sec-06__text {
+  margin-top: calc(37 * (100vw / 750));
+}
+#MO250911DENIM .sec-footer {
+  padding-top: calc(170 * (100vw / 750));
+}
+#MO250911DENIM .sec-footer__btn {
+  max-width: calc(675 * (100vw / 750));
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #000;
+  line-height: 1;
+  font-family: "utopia-std", serif;
+  font-size: calc(46 * (100vw / 750));
+  letter-spacing: 0.076em;
+  padding: calc(35 * (100vw / 750)) calc(32 * (100vw / 750));
+  text-align: center;
+}
+#MO250911DENIM .sec-footer__staff {
+  padding-top: calc(126 * (100vw / 750));
+}
+#MO250911DENIM .sec-footer__staff-head {
+  font-size: calc(28 * (100vw / 750));
+  letter-spacing: 0.2em;
+}
+#MO250911DENIM .sec-footer__staff-item {
+  font-size: calc(25 * (100vw / 750));
+  line-height: 2;
+  font-family: "mencken-std-head", sans-serif;
+  letter-spacing: 0.02em;
+}
