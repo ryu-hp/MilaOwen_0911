@@ -29,8 +29,11 @@ $mediaquerys: (
     @return $number;
 }
 
+// @function vw($size) {
+//   @return unquote("calc(#{$size} * (100vw / 750))");
+// }
 @function vw($size) {
-  @return unquote("calc(#{$size} * (100vw / 750))");
+  @return unquote("calc(#{$size} * var(--formula))");
 }
 
 

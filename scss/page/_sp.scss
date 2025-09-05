@@ -1,5 +1,8 @@
 @use "../global" as *;
 #MO250911DENIM {
+  --ratio: 1;
+  --variable: calc(100vw / var(--sp-width));
+
   .lp-scroll-content {
     padding-bottom: vw(305);
   }
@@ -39,7 +42,7 @@
   }
   // section03
   .sec-03 {
-    padding-top: vw(151);
+    padding-top: vw(162);
   }
   .sec-03__movie {
     max-width: vw(675);
@@ -62,7 +65,7 @@
   }
   // section04
   .sec-04 {
-    padding-top: vw(150);
+    padding-top: vw(162);
   }
   .sec-04__movie {
     max-width: vw(675);
@@ -78,10 +81,11 @@
   }
   .sec-04__text {
     margin-top: vw(50);
+    justify-content: center;
   }
   // section05
   .sec-05 {
-    padding-top: vw(150.5);
+    padding-top: vw(163);
   }
   .sec-05__movie {
     max-width: vw(675);
@@ -90,7 +94,7 @@
   }
   .sec-05__image-01 {
     margin-top: vw(100);
-    max-width: vw(600);
+    max-width: vw(599);
     margin-left: auto;
   }
   .sec-05__content {
@@ -100,16 +104,16 @@
   }
   .sec-05__text {
     padding-left: vw(40);
-    margin-top: vw(37);
+    margin-top: vw(50);
     max-width: vw(530);
   }
   // section06
   .sec-06 {
-    padding-top: vw(149.5);
+    padding-top: vw(162);
   }
   .sec-06__image-02 {
     max-width: vw(560);
-    margin-top: vw(60);
+    margin-top: vw(59);
     margin-right:auto;
     margin-left:auto;
   }
@@ -120,11 +124,21 @@
     margin-left: auto;
   }
   .sec-06__text {
-    margin-top: vw(37);
+    margin-top: vw(48);
+    text-align: center;
+  }
+  .sec-06__text .description {
+    justify-content: center;
+  }
+  .sec-06__text .description:not(:first-child ) {
+    margin-top: vw(25);
+  }
+  .sec-06__text .description:last-child {
+    gap: vw(28);
   }
   // sec-footer
   .sec-footer {
-    padding-top: vw(170);
+    padding-top: vw(183);
   }
   .sec-footer__btn {
     max-width: vw(675);
@@ -134,9 +148,10 @@
     line-height: 1;
     font-family: $check-all-font-family;
     font-size: vw(46);
-    letter-spacing: 0.076em;
+    letter-spacing: 0.01em;
     padding: vw(35) vw(32);
     text-align: center;
+    text-transform: uppercase;
   }
   .sec-footer__staff {
     padding-top: vw(126);
@@ -144,6 +159,9 @@
   .sec-footer__staff-head {
     font-size: vw(28);
     letter-spacing: 0.2em;
+    font-family: $second-font-family;
+    text-transform: uppercase;
+    margin-bottom: vw(30);
   }
   .sec-footer__staff-item {
     font-size: vw(25);
