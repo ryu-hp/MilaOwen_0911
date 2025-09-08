@@ -6,6 +6,19 @@
   .lp-scroll-content {
     padding-bottom: vw(305);
   }
+  // KV
+  .lp-kv-images {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .lp-kv-image__text {
+    position: absolute;
+    width: vw(369.0859);
+    top: 56.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
   // section01
   .sec-01 {
     padding-top: vw(102);

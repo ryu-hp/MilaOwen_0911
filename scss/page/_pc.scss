@@ -14,9 +14,15 @@
       width: 50vw;
       height: 100vh;
     }
-    .lp-fix-content img {
+    .lp-kv-images a {
+      width: 100%;
+    }
+    .lp-kv-image img {
       height: 100vh;
       object-fit: cover;
+    }
+    .lp-kv-image__text {
+      width: calc(344.4795 / 720 * 100%);
     }
     .lp-scroll-content {
       width: 50vw;

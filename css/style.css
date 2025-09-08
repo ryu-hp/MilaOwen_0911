@@ -188,6 +188,19 @@
 #MO250911DENIM .lp-scroll-content {
   padding-bottom: calc(305 * var(--formula));
 }
+#MO250911DENIM .lp-kv-images {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#MO250911DENIM .lp-kv-image__text {
+  position: absolute;
+  width: calc(369.0859 * var(--formula));
+  top: 56.3%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 #MO250911DENIM .sec-01 {
   padding-top: calc(102 * var(--formula));
 }
@@ -366,10 +379,16 @@
     width: 50vw;
     height: 100vh;
   }
-  #MO250911DENIM .lp-fix-content img {
+  #MO250911DENIM .lp-kv-images a {
+    width: 100%;
+  }
+  #MO250911DENIM .lp-kv-image img {
     height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  #MO250911DENIM .lp-kv-image__text {
+    width: 47.844375%;
   }
   #MO250911DENIM .lp-scroll-content {
     width: 50vw;
