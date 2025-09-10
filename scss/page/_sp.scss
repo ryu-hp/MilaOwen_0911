@@ -14,7 +14,7 @@
   }
   .lp-kv-image__text {
     position: absolute;
-    width: vw(369.0859);
+    width: vw(430);
     top: 56.3%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -75,6 +75,10 @@
   .sec-03__text {
     padding-left: vw(36);
     margin-top: vw(50);
+    letter-spacing: 0.02em;
+  }
+  .sec-03__text {
+    gap: calc(25 * var(--formula)) calc(33 * var(--formula));
   }
   // section04
   .sec-04 {

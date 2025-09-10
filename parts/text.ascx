@@ -17,7 +17,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <%-- ▽ 編集可能領域：コンテンツ ▽ --%>
 <link rel="stylesheet" href='<%= Constants.PATH_ROOT %>Css/lp_common.css?ver=<%: System.IO.File.GetLastWriteTime(HttpContext.Current.Server.MapPath(Constants.PATH_ROOT + @"Css/lp_common.css")).ToString("yyMMddHHmmss") %>'>
 <%-- コンテンツ部分用CSS読み込みここから --%>
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/0911/css/style.css?09081459">
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/0911/css/style.css?09101420">
 <link rel="stylesheet" href="https://use.typekit.net/dua3nyq.css">
 <%-- コンテンツ部分用CSS読み込みここまで --%>
 
@@ -35,7 +35,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0911/image/image-01.jpg?250908" alt="fun with denim">  
           </div>
           <div class="lp-kv-image__text">
-            <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0911/image/KV_text.svg" alt="fun with denim">
+            <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0911/image/KV_text.png" alt="fun with denim">
           </div>
         </a>
       </div>

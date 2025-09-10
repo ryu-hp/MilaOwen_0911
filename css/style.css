@@ -195,7 +195,7 @@
 }
 #MO250911DENIM .lp-kv-image__text {
   position: absolute;
-  width: calc(369.0859 * var(--formula));
+  width: calc(430 * var(--formula));
   top: 56.3%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -254,6 +254,10 @@
 #MO250911DENIM .sec-03__text {
   padding-left: calc(36 * var(--formula));
   margin-top: calc(50 * var(--formula));
+  letter-spacing: 0.02em;
+}
+#MO250911DENIM .sec-03__text {
+  gap: calc(25 * var(--formula)) calc(33 * var(--formula));
 }
 #MO250911DENIM .sec-04 {
   padding-top: calc(162 * var(--formula));
@@ -363,6 +367,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  #footer {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
   #MO250911DENIM {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: 1px;
@@ -388,7 +397,7 @@
        object-fit: cover;
   }
   #MO250911DENIM .lp-kv-image__text {
-    width: 47.844375%;
+    width: 59.7222222222%;
   }
   #MO250911DENIM .lp-scroll-content {
     width: 50vw;

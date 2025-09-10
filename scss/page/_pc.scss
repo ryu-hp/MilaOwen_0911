@@ -1,8 +1,14 @@
 @use "../global" as *;
+@include mq(md) {
+  #footer {
+    padding-top: 0;
+  }
+}
 #MO250911DENIM {
   @include mq(md) {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: 1px;
+
 
     .lp-wrapper {
       display: flex;
@@ -22,7 +28,7 @@
       object-fit: cover;
     }
     .lp-kv-image__text {
-      width: calc(344.4795 / 720 * 100%);
+      width: calc(430 / 720 * 100%);
     }
     .lp-scroll-content {
       width: 50vw;
